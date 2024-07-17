@@ -6,8 +6,8 @@ from PIL import Image
 import piexif
 from io import BytesIO
 
-subscription_key = "0dbf2f0cb3994017bc9aa3397d80a0c9"
-endpoint = "https://imageretrievalwab.cognitiveservices.azure.com/"
+subscription_key = ""
+endpoint = ""
 analyze_url = endpoint + "vision/v3.1/analyze"
 
 UPLOAD_FOLDER = 'static/uploads'
