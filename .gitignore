@@ -3,3 +3,5 @@ templates
 .env
 static 
 uploads
+image_cat.py
+weaviate_data
