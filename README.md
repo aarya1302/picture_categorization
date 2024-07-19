@@ -21,9 +21,31 @@ Clone the repository to your local machine:
 ```bash
 git clone <repository-url>
 cd <repository-directory>
+Step 2: Set up Docker Containers
+In the root directory of the project, use Docker Compose to set up Weaviate containers:
 
+```bash
+docker-compose up -d
+This command will start the necessary containers for Weaviate.
+
+Step 3: Install Node.js Dependencies
+Install the required Node.js dependencies for the web app:
+
+```bash
+
+npm install
+Step 4: Run the Web App
+Start the web app by running:
+
+```bash
+
+node app.js
+The web app should now be running locally.
+
+Accessing the Web App
+Open your web browser and go to http://localhost:<port> where <port> is the port specified in your app.js or docker-compose.yml file.
 
 Additional Notes
 Make sure Docker is running and configured correctly before starting.
 Ensure all dependencies are installed using npm install before running node app.js.
-Adjust any configuration settings as needed in app.js or docker-compose.yml before starting 
+Adjust any configuration settings as needed in app.js or docker-compose.yml before starting the containers or app.
